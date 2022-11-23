@@ -46,9 +46,14 @@
 @media (max-width: 576px) {
     .home-page {
         background-color: #53067A;
-        height: 600px;
-        width: 500px;
-        position: relative;
+        width: 100%;
+    }
+
+    .cabecalho {
+        padding: 10px 5px;
+        background-color: #810082;
+        height: 50px;
+        width: 100%;
     }
 
     .text-image {
