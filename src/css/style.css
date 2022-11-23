@@ -43,6 +43,11 @@
     left: 250px;
 }
 
+.cardapio{
+    text-align: center;
+    background-color: #53067A;
+}
+
 @media (max-width: 576px) {
     .home-page {
         background-color: #53067A;
@@ -76,5 +81,9 @@
         top: 90%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    img{
+        width: 100%;
     }
 }
