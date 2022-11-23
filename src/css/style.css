@@ -1,0 +1,77 @@
+.cabecalho {
+    padding: 10px 5px;
+    background-color: #810082;
+    height: 50px;
+}
+
+.cabecalho .logo {
+    display: inline-block;
+}
+
+.cabecalho nav {
+    float: right;
+}
+
+.cabecalho nav li {
+    display: inline-block;
+    padding: 15px;
+    font-size: larger;
+}
+
+.home-page {
+    background-color: #53067A;
+    height: 500px;
+    position: relative;
+    margin: auto;
+}
+
+.text-image {
+    position: absolute;
+    width: 700px;
+}
+
+.acai-image {
+    position: absolute;
+    left: 600px;
+    width: 500px;
+}
+
+.arrow-icon {
+    position: absolute;
+    width: 150px;
+    bottom: 10px;
+    left: 250px;
+}
+
+@media (max-width: 576px) {
+    .home-page {
+        background-color: #53067A;
+        height: 600px;
+        width: 500px;
+        position: relative;
+    }
+
+    .text-image {
+        position: absolute;
+        width: 600px;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .acai-image {
+        position: absolute;
+        width: 350px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .arrow-icon {
+        position: absolute;
+        width: 150px;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
