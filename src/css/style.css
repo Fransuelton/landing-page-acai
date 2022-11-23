@@ -46,19 +46,17 @@
 @media (max-width: 576px) {
     .home-page {
         background-color: #53067A;
-        width: 100%;
     }
 
     .cabecalho {
         padding: 10px 5px;
         background-color: #810082;
         height: 50px;
-        width: 100%;
     }
 
     .text-image {
         position: absolute;
-        width: 600px;
+        width: 100%;
         top: 10%;
         left: 50%;
         transform: translate(-50%, -50%);
