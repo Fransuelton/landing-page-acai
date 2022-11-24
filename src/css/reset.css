@@ -4,15 +4,23 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-    text-decoration: none;
+   
 }
 
 .botoes-menu{
     color: white;
     font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    background-color: #4d064d;
+    border-radius: 10px;
+    text-decoration: none;
 }
 
 .botoes-menu:hover {
     background-color: #019C00;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+a{
+    color: white;
 }

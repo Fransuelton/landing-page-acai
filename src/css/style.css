@@ -1,11 +1,12 @@
 .cabecalho {
     padding: 10px 5px;
     background-color: #810082;
-    height: 50px;
+    height: 75px;
 }
 
 .cabecalho .logo {
     display: inline-block;
+    width: 80px;
 }
 
 .cabecalho nav {
@@ -16,7 +17,9 @@
     display: inline-block;
     padding: 15px;
     font-size: larger;
+    margin-top: 10px;
 }
+
 
 .home-page {
     background-color: #53067A;
@@ -28,11 +31,12 @@
 .text-image {
     position: absolute;
     width: 700px;
+    left: 100px;
 }
 
 .acai-image {
     position: absolute;
-    left: 600px;
+    left: 700px;
     width: 500px;
 }
 
@@ -40,13 +44,90 @@
     position: absolute;
     width: 150px;
     bottom: 10px;
-    left: 250px;
+    left: 350px;
 }
 
-.cardapio{
+.cardapio {
     text-align: center;
     background-color: #53067A;
 }
+
+.cardapio img {
+    border-radius: 50px;
+}
+
+.formas-de-pagamento {
+    padding-top: 10px;
+    background-color: #53067A;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 50px;
+}
+
+.area-de-pagamento li {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 100px;
+}
+
+.area-de-pagamento img{
+    width: 70px;
+}
+
+.logo-de-pagamento:hover {
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.area-redes-sociais {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    margin: 10px;
+}
+
+.area-redes-sociais img {
+    display: inline-block;
+    width: 40px;
+    margin: 5px;
+}
+
+.informacoes {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+
+.informacoes p {
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+footer {
+    text-align: center;
+    border: double 10px white;
+    background-color: #53067A;
+    height: 300px;
+    color: white;
+}
+
+.creditos{
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo-footer{
+    position: absolute;
+    right: 200px;
+    width: 100px;
+}
+
 
 @media (max-width: 576px) {
     .home-page {
@@ -56,7 +137,12 @@
     .cabecalho {
         padding: 10px 5px;
         background-color: #810082;
-        height: 50px;
+        height: 85px;
+    }
+
+    .cabecalho .logo {
+        display: inline-block;
+        width: 80px;
     }
 
     .text-image {
@@ -65,6 +151,14 @@
         top: 10%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    .cabecalho nav li {
+        display: inline-block;
+        padding: 15px;
+        font-size: 15;
+        font-weight: bold;
+        margin-top: 10px;
     }
 
     .acai-image {
@@ -83,7 +177,85 @@
         transform: translate(-50%, -50%);
     }
 
-    img{
+    .cardapio {
+        text-align: center;
+        background-color: #53067A;
+    }
+
+    .cardapio img {
+        border-radius: 50px;
+    }
+
+    img {
         width: 100%;
+    }
+
+    .formas-de-pagamento {
+        padding-top: 10px;
+        background-color: #53067A;
+        text-align: center;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        padding-bottom: 50px;
+    }
+
+    .area-de-pagamento li {
+        display: inline-block;
+        width: 70px;
+        margin: 5px;
+        padding: 10px;
+        background-color: #ffffff;
+        border-radius: 100px;
+    }
+
+    .logo-de-pagamento:hover {
+        -webkit-transition: all 0.7s ease;
+        transition: all 0.7s ease;
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+
+    .area-redes-sociais {
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+        margin: 10px;
+    }
+
+    .area-redes-sociais img {
+        display: inline-block;
+        width: 40px;
+        margin: 5px;
+    }
+
+    .informacoes {
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 10px;
+    }
+
+    .informacoes p {
+        text-align: left;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    footer {
+        text-align: center;
+        border: double 10px white;
+        background-color: #53067A;
+        height: 300px;
+        color: white;
+    }
+
+    .creditos{
+        margin-top: 40px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .logo-footer{
+        position: absolute;
+        right: 40px;
+        width: 100px;
     }
 }
