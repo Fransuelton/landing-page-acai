@@ -156,7 +156,7 @@ footer {
     .cabecalho nav li {
         display: inline-block;
         padding: 15px;
-        font-size: 15;
+        font-size: 15px;
         font-weight: bold;
         margin-top: 10px;
     }
@@ -203,7 +203,7 @@ footer {
         display: inline-block;
         width: 70px;
         margin: 5px;
-        padding: 10px;
+        padding: 5px;
         background-color: #ffffff;
         border-radius: 100px;
     }
@@ -255,7 +255,7 @@ footer {
 
     .logo-footer{
         position: absolute;
-        right: 40px;
+        right: 0;
         width: 100px;
     }
 }
