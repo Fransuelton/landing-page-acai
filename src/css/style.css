@@ -1,7 +1,6 @@
 .cabecalho {
     padding: 10px 5px;
     background-color: #810082;
-    height: 75px;
 }
 
 .cabecalho .logo {
@@ -11,72 +10,71 @@
 
 .cabecalho nav {
     float: right;
+
 }
 
-.cabecalho nav li {
+.cabecalho .botoes {
     display: inline-block;
-    padding: 5px;
-    margin-top: 10px;
+    padding: 15px;
+    margin: 10px;
+    color: white;
+    background-color: #4d064d;
+    border-radius: 10px;
+
 }
 
+.botoes:hover {
+    background-color: #019C00;
+    border-radius: 10px;
+}
 
-.home-page {
+.area-principal {
     background-color: #53067A;
-    height: 500px;
-    position: relative;
-    margin: auto;
+    height: 1300px;
 }
 
 .text-image {
     position: absolute;
-    width: 700px;
+    width: 600px;
     left: 100px;
 }
 
 .acai-image {
     position: absolute;
-    left: 700px;
     width: 500px;
+    left: 700px;
 }
 
 .arrow-icon {
     position: absolute;
     width: 150px;
-    bottom: 10px;
-    left: 350px;
+    left: 300px;
+    bottom: 150px;
 }
 
 .cardapio {
-    text-align: center;
-    background-color: #53067A;
-}
-
-.cardapio img {
-    border-radius: 50px;
+    position: absolute;
+    left: 200px;
+    top: 600px;
 }
 
 .formas-de-pagamento {
-    padding-top: 10px;
-    background-color: #53067A;
+    position: absolute;
     text-align: center;
     color: white;
-    font-family: 'Montserrat', sans-serif;
-    padding-bottom: 50px;
+    top: 1250px;
+    left: 420px;
 }
 
-.area-de-pagamento li {
+.logos-pagamento {
     display: inline-block;
     margin: 5px;
     padding: 10px;
     background-color: #ffffff;
-    border-radius: 100px;
+    border-radius: 10px;
 }
 
-.area-de-pagamento img{
-    width: 70px;
-}
-
-.logo-de-pagamento:hover {
+.logos-pagamento:hover {
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
     -webkit-transform: scale(1.2);
@@ -84,59 +82,37 @@
     cursor: pointer;
 }
 
-.area-redes-sociais {
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
-    margin: 10px;
-}
-
-.area-redes-sociais img {
-    display: inline-block;
-    width: 40px;
-    margin: 5px;
-}
-
-.informacoes {
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 10px;
-}
-
-.informacoes p {
-    text-align: left;
-    padding: 5px;
-    margin: 5px;
-}
-
 footer {
-    text-align: center;
     border: double 10px white;
     background-color: #53067A;
-    height: 300px;
     color: white;
 }
 
-.creditos{
-    margin-top: 40px;
-    font-family: 'Montserrat', sans-serif;
+.informacoes {
+    text-align: left;
+    margin: 5px;
+    color: white;
 }
 
-.logo-footer{
-    position: absolute;
-    right: 200px;
-    width: 100px;
+.logo-redes-sociais {
+    margin: 5px;
 }
 
+.creditos {
+    text-align: center;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+.link {
+    color: white;
+}
 
 @media (max-width: 576px) {
-    .home-page {
-        background-color: #53067A;
-    }
-
     .cabecalho {
         padding: 10px 5px;
         background-color: #810082;
-        height: 85px;
     }
 
     .cabecalho .logo {
@@ -144,70 +120,57 @@ footer {
         width: 80px;
     }
 
-    .text-image {
-        position: absolute;
-        width: 100%;
-        top: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    .cabecalho nav {
+        float: right;
     }
 
-    .cabecalho nav li {
+    .cabecalho .botoes {
         display: inline-block;
-        padding: 15px;
-        font-size: 15px;
-        font-weight: bold;
-        margin-top: 10px;
+        padding: 8px;
+        margin: 9px;
+        color: white;
+        background-color: #4d064d;
+        border-radius: 10px;
+    }
+
+    .botoes:hover {
+        background-color: #019C00;
+        border-radius: 10px;
+    }
+
+    .area-principal {
+        background-color: #53067A;
+    }
+
+    .text-image {
+        width: 300px;
     }
 
     .acai-image {
-        position: absolute;
-        width: 350px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
     }
 
     .arrow-icon {
-        position: absolute;
-        width: 150px;
-        top: 90%;
-        left: 50%;
-        transform: translate(-50%, -50%);
     }
 
     .cardapio {
-        text-align: center;
-        background-color: #53067A;
-    }
-
-    .cardapio img {
-        border-radius: 50px;
-    }
-
-    img {
-        width: 100%;
     }
 
     .formas-de-pagamento {
-        padding-top: 10px;
-        background-color: #53067A;
+        position: absolute;
         text-align: center;
         color: white;
-        font-family: 'Montserrat', sans-serif;
-        padding-bottom: 50px;
+        width: 6px;
     }
 
-    .area-de-pagamento li {
+    .logos-pagamento {
         display: inline-block;
-        width: 70px;
         margin: 5px;
-        padding: 5px;
+        padding: 10px;
         background-color: #ffffff;
-        border-radius: 100px;
+        border-radius: 10px;
     }
 
-    .logo-de-pagamento:hover {
+    .logos-pagamento:hover {
         -webkit-transition: all 0.7s ease;
         transition: all 0.7s ease;
         -webkit-transform: scale(1.2);
@@ -215,46 +178,31 @@ footer {
         cursor: pointer;
     }
 
-    .area-redes-sociais {
-        text-align: left;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 10px;
-        margin: 10px;
-    }
-
-    .area-redes-sociais img {
-        display: inline-block;
-        width: 40px;
-        margin: 5px;
-    }
-
-    .informacoes {
-        font-family: 'Montserrat', sans-serif;
-        margin-top: 10px;
-    }
-
-    .informacoes p {
-        text-align: left;
-        padding: 5px;
-        margin: 5px;
-    }
-
     footer {
-        text-align: center;
         border: double 10px white;
         background-color: #53067A;
-        height: 300px;
         color: white;
     }
 
-    .creditos{
-        margin-top: 40px;
-        font-family: 'Montserrat', sans-serif;
+    .informacoes {
+        text-align: left;
+        margin: 5px;
+        color: white;
     }
 
-    .logo-footer{
-        position: absolute;
-        right: 0;
-        width: 100px;
+    .logo-redes-sociais {
+        margin: 5px;
+
+    }
+
+    .creditos {
+        text-align: center;
+        margin-bottom: 5px;
+        text-decoration: underline;
+        margin-top: 20px;
+    }
+
+    .link {
+        color: white;
     }
 }

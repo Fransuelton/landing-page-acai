@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casa do Açai</title>
+    <title>Casa do Açai - Landing Page</title>
 
     <link rel="shortcut icon" href="./src/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./src/css/reset.css">
@@ -17,62 +17,61 @@
         <img src="./src/images/logo.png" class="logo">
         <nav>
             <ul>
-                <li><a href="#home-page" class="botoes-menu">Home</a></li>
-                <li><a href="#cardapio" class="botoes-menu">Cardápio</a></li>
-                <li><a href="#contato" class="botoes-menu">Contato</a></li>
+                <li class="botoes"><a href="#home-page" class="link">Home</a></li>
+                <li class="botoes"><a href="#cardapio" class="link">Cardápio</a></li>
+                <li class="botoes"><a href="#contato" class="link">Contato</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <div class="home-page" id="home-page">
-            <img src="./src/images/principal-text.png" class="text-image">
-            <img src="./src/images/arrow-icon.png" class="arrow-icon">
-            <img src="./src/images/acai-image.png" class="acai-image">
-        </div>
-        <div class="cardapio" id="cardapio">
-            <picture>
-                <source media="(min-width: 768px)" srcset="./src/images/desktop.png" class="desktop-image">
-                <img src="./src/images/cardapio-celular.png">
-            </picture>
+        <div class="area-principal" id="home">
+            <section class="painel">
+                <div>
+                    <img src="./src/images/slogan.png" class="text-image">
+                    <img src="./src/images/arrow-icon.png" class="arrow-icon">
+                    <img src="./src/images/acai-image.png" class="acai-image">
+
+                    <picture class="cardapio" id="cardapio">
+                        <source media="(min-width: 768px)" srcset="./src/images/desktop.png">
+                        <img src="./src/images/mobile.png">
+                    </picture>
+                </div>
+            </section>
+
+            <div class="formas-de-pagamento">
+                <h2>Formas de Pagamento</h2>
+                <nav>
+                    <ul>
+                        <li class="logos-pagamento"><img src="./src/images/formas-pagamento/mastercard.png">
+                        </li>
+                        <li class="logos-pagamento"><img src="./src/images/formas-pagamento/nubank.png"></li>
+                        <li class="logos-pagamento"><img src="./src/images/formas-pagamento/visa.png"></li>
+                        <li class="logos-pagamento"><img src="./src/images/formas-pagamento/pix.png"></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </main>
+    <footer>
+        <address class="informacoes" id="contato">
+            <p>Endereço: Rua Santos, N°00 Centro</p><br>
+            <p>Telefone: 84 0 0000-0000</p><br>
+            <p>E-mail: example@gmail.com</p><br>
 
-    <div class="formas-de-pagamento">
-        <h2>Formas de Pagamento:</h2>
-        <nav class="area-de-pagamento">
-            <ul>
-                <li><img src="./src/images/formas-de-pagamento/mastercard-logo.png" class="logo-de-pagamento"></li>
-                <li><img src="./src/images/formas-de-pagamento/nubank-logo.png" class="logo-de-pagamento"></li>
-                <li><img src="./src/images/formas-de-pagamento/visa-logo.png" class="logo-de-pagamento"></li>
-                <li><img src="./src/images/formas-de-pagamento/pix-logo.png" class="logo-de-pagamento"></li>
-            </ul>
-        </nav>
-    </div>
-    <footer id="contato">
-        <picture>
-            <source media="(min-width: 768)" srcset="./src/images/logo.png" class="logo-footer">
-            <img src="./src/images/logo2.png" class="logo-footer">
-        </picture>
-        <address class="informacoes">
-            <p>Endereço: Rua Santos, N°00 Centro</p>
-            <p>Telefone: 84 0 0000-0000</p>
-            <p>E-mail: example@gmail.com</p>
+            <div class="redes-sociais">
+                <h2>Redes Sociais</h2><br>
+
+                <a href="#" class="logo-redes-sociais"><img src="./src/images/redes-sociais/instagram.png"></a>
+                <a href="#" class="logo-redes-sociais"><img src="./src/images/redes-sociais/facebook.png"></a>
+                <a href="#" class="logo-redes-sociais"><img src="./src/images/redes-sociais/whatsapp.png"></a>
+            </div>
         </address>
-        <section class="area-redes-sociais">
-            <h2>Nossas redes sociais</h2>
-
-            <a href="#"><img src="./src/images/instagram-logo.png"></a>
-            <a href="#"><img src="./src/images/whatsapp.png"></a>
-            <a href="#"><img src="./src/images/facebook.png"></a>
-
-        </section>
         <section class="creditos">
-            <a href="https://www.flaticon.com/free-icons/whatsapp" title="Social media icons">Social icons created by
-                Pixel
-                perfect - Flaticon</a>
-            <p>Criado por <a href="https://github.com/Fransuelton">Fransuelton</a>🚀</p>
+            <a href="https://www.flaticon.com/free-icons/whatsapp" title="Social media icons" class="link" target="_blank">Social icons
+                created by Pixel perfect - Flaticon</a>
+            <p>Criado por <a href="https://github.com/Fransuelton" class="link" target="_blank">Fransuelton</a> 🚀</p>
         </section>
-        
     </footer>
 </body>
 
