@@ -140,58 +140,65 @@ footer {
 
     .area-principal {
         background-color: #53067A;
+        height: 1000px;
     }
 
     .text-image {
-        width: 300px;
+        width: 500px;
+        left: 5px;
     }
 
     .acai-image {
+        width: 270px;
+        left: 100px;
+        top: 240px;
     }
 
     .arrow-icon {
+        left: 160px;
     }
 
     .cardapio {
+        position: absolute;
+        width: 300px;
+        left: 65px;
+
     }
 
     .formas-de-pagamento {
-        position: absolute;
-        text-align: center;
-        color: white;
-        width: 6px;
+        left: 200px;
     }
 
     .logos-pagamento {
         display: inline-block;
-        margin: 5px;
-        padding: 10px;
-        background-color: #ffffff;
-        border-radius: 10px;
+    }
+
+    .logo {
+        width: 20px;
     }
 
     .logos-pagamento:hover {
         -webkit-transition: all 0.7s ease;
         transition: all 0.7s ease;
         -webkit-transform: scale(1.2);
-        transform: scale(1.2);
+        transform: scale(1.1);
         cursor: pointer;
     }
 
     footer {
-        border: double 10px white;
+        border: double 5px white;
         background-color: #53067A;
         color: white;
     }
 
     .informacoes {
         text-align: left;
-        margin: 5px;
+        margin: 2px;
         color: white;
     }
 
     .logo-redes-sociais {
-        margin: 5px;
+        margin: 2px;
 
     }
 
@@ -199,7 +206,6 @@ footer {
         text-align: center;
         margin-bottom: 5px;
         text-decoration: underline;
-        margin-top: 20px;
     }
 
     .link {
