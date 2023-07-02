@@ -5,73 +5,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/font-awesome.css">
+    <link rel="stylesheet" href="src/css/scrollbar.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
     <title>Casa do Açai - Landing Page</title>
-
-    <link rel="shortcut icon" href="./src/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/style.css">
 </head>
 
 <body>
-    <header class="cabecalho">
-        <img src="./src/images/logo.png" class="logo">
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="src/images/logo.png" alt="logo casa do açai">
+        </a>
+
         <nav>
-            <ul>
-                <li class="botoes"><a href="#home-page" class="link">Home</a></li>
-                <li class="botoes"><a href="#cardapio" class="link">Cardápio</a></li>
-                <li class="botoes"><a href="#contato" class="link">Contato</a></li>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cardápio</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#" class="btn"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <div class="area-principal" id="home">
-            <section>
-                <div>
-                    <img src="./src/images/slogan.png" class="text-image">
-                    <img src="./src/images/arrow-icon.png" class="arrow-icon">
-                    <img src="./src/images/acai-image.png" class="acai-image">
+    <main class="container">
 
-                    <picture class="cardapio" id="cardapio">
-                        <source media="(min-width: 768px)" srcset="./src/images/desktop.png">
-                        <img src="./src/images/mobile.png">
-                    </picture>
-                </div>
-            </section>
+        <section class="introduction">
+            <img src="src/images/image-acai.png" alt="imagem de acai" class="image">
 
-            <div class="formas-de-pagamento">
-                <h5>Formas de Pagamento</h5>
-                <nav>
-                    <ul>
-                        <li class="logos-pagamento"><img src="./src/images/formas-pagamento/mastercard.png" class="logo">
-                        </li>
-                        <li class="logos-pagamento"><img src="./src/images/formas-pagamento/nubank.png"class="logo"></li>
-                        <li class="logos-pagamento"><img src="./src/images/formas-pagamento/visa.png" class="logo"></li>
-                        <li class="logos-pagamento"><img src="./src/images/formas-pagamento/pix.png" class="logo"></li>
-                    </ul>
-                </nav>
+            <div class="info">
+                <h1 class="title">Bem-vindo à Casa do Açaí - O Paraíso do Sabor Tropical!</h1>
+
+                <p class="text">
+                    Na Casa do Açaí, somos apaixonados por trazer para você o autêntico sabor tropical em cada copo. Se
+                    você está em busca de uma explosão refrescante de sabores e uma dose de energia natural, você veio
+                    ao lugar certo!
+                </p>
+
+                <img src="src/images/arrow.png" alt="imagem de uma seta para baixo" class="arrow">
             </div>
-        </div>
-    </main>
-    <footer>
-        <address class="informacoes" id="contato">
-            <p>Endereço: Rua Santos, N°00 Centro</p><br>
-            <p>Telefone: 84 0 0000-0000</p><br>
-            <p>E-mail: example@gmail.com</p><br>
-
-            <div class="redes-sociais">
-                <h2>Redes Sociais</h2><br>
-
-                <a href="#" class="logo-redes-sociais"><img src="./src/images/redes-sociais/instagram.png"></a>
-                <a href="#" class="logo-redes-sociais"><img src="./src/images/redes-sociais/facebook.png"></a>
-                <a href="#" class="logo-redes-sociais"><img src="./src/images/redes-sociais/whatsapp.png"></a>
-            </div>
-        </address>
-        <section class="creditos">
-            <a href="https://www.flaticon.com/free-icons/whatsapp" title="Social media icons" class="link" target="_blank">Social icons
-                created by Pixel perfect - Flaticon</a>
-            <p>Criado por <a href="https://github.com/Fransuelton" class="link" target="_blank">Fransuelton</a> 🚀</p>
         </section>
+
+        <section class="more-info area">
+            <div class="info">
+                <p class="text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus voluptates, dolor blanditiis
+                    harum repudiandae laboriosam nisi quod cumque eum necessitatibus provident quam tenetur veli
+                    exercitationem numquam dolore, sed consequuntur adipisci.
+                </p>
+                <button class="btn">Faça Download do Nosso Cardápio</button>
+            </div>
+
+            <img src="src/images/image01.jpg" alt="imagem de um pote de açai em cima de uma mesa"
+                title="Image by Pizza Man from Pixabay">
+        </section>
+
+        <section class="about area">
+            <img src="src/images/casa-do-acai-image.png" alt="" title="imagem com a logo da casa do açai">
+            <div class="info">
+                <p class="text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus voluptates, dolor blanditiis
+                    harum repudiandae laboriosam nisi quod cumque eum necessitatibus provident quam tenetur veli
+                    exercitationem numquam dolore, sed consequuntur adipisci.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <address>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Rua Exemplo, 123, Bairro Modelo, Cidade Fictícia</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+55 (XX) XXXX-XXXX</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="#">info@exemplolandingpage.com</a>
+                </li>
+            </ul>
+        </address>
+        <div class="about-site">
+            <p>Sobre o Site</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At amet est sit velit nobis perferendis!</p>
+            <nav>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+            </nav>
+        </div>
     </footer>
 </body>
 
