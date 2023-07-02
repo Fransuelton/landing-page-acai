@@ -1,0 +1,60 @@
+@media (max-width: 576px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .menu {
+        flex-direction: column;
+        padding-top: 2rem;
+        justify-content: center;
+    }
+
+    .container .introduction{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container .introduction img {
+        width: 40rem;
+    }
+
+    .introduction .info .title {
+        text-align: center;
+        font-size: 2.5rem;
+        margin: 0 1rem;
+    }
+
+    .introduction .info .text{
+        text-align: center;
+        margin: 0 1rem;
+    }
+
+    .area {
+        flex-direction: column;
+    }
+
+    .area .info{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .more-info .info .btn{
+        align-self: center;
+        margin: 0;
+    }
+
+    .more-info img {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer .about-site {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
